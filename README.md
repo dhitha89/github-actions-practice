@@ -1,6 +1,6 @@
-# GitHub Actions Practice
+# GitHub Actions Practice 
 
-A learning repository to understand and practice GitHub Actions workflows.
+This is a learning repository to understand and practice GitHub Actions workflows.
 
 ## Overview
 
