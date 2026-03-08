@@ -13,4 +13,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Print statement
-        run: echo "Hello from Github Actions!"
+        run: |
+          echo "Hello from GitHub Actions!"
+          echo "Current date and time:"
+          date
+          echo "Branch that triggered the run:"
+          echo ${{ github.ref_name }}
+          echo "Files in the repo:"
+          ls -la
+          echo "Runner's operating system:"
+          uname -a
