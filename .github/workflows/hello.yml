@@ -7,7 +7,7 @@ on:
 
 jobs:
   greet:
-    runs-on: ubuntu-latest
+    runs-on-it: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
